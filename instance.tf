@@ -19,8 +19,15 @@ resource "aws_instance" "web" {
 
   provisioner "remote-exec" {
     inline = [
-      "sudo yum install -y nginx",
-      "sudo /etc/init.d/nginx start",
+      "sudo yum update -y ",
+      "sudo yum install -y docker",
+      "sudo service docker start",
+      "sudo usermod -a -G docker ec2-user",
+      "sudo yum -y install git",
+      "sudo git clone https://github.com/zeineldin/docker-nginx-sandbox.git",
+      "cd docker-nginx-sandbox",
+      "sudo docker build -t testnginx  . ",
+      "sudo docker run -d -p 80:80 testnginx",
  
     ]
 
