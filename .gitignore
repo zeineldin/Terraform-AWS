@@ -1,0 +1,12 @@
+**/.terraform/*
+.terraform/*
+./.terraform/*
+terraform.tfplan
+terraform.tfstate
+modules-dev/
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp

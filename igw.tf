@@ -1,7 +1,7 @@
 resource "aws_internet_gateway" "gw" {
-  vpc_id = "${aws_vpc.dm.id}"
+  vpc_id = "${aws_vpc.devops.id}"
 
   tags {
-    Name = "Data-Modeling"
+    Name = "DevOps-igw"
   }
 }

@@ -1,6 +1,6 @@
 resource "aws_security_group" "sg" {
-  name        = "data-modeling"
-  vpc_id      = "${aws_vpc.dm.id}"
+  name        = "DevOps_sg"
+  vpc_id      = "${aws_vpc.devops.id}"
 
   ingress {
     from_port   = 22

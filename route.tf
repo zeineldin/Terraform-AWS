@@ -1,5 +1,5 @@
 resource "aws_route_table" "rt" {
- vpc_id = "${aws_vpc.dm.id}"
+ vpc_id = "${aws_vpc.devops.id}"
 
  route {
    cidr_block = "0.0.0.0/0"
@@ -7,7 +7,7 @@ resource "aws_route_table" "rt" {
  }
 
  tags {
-   Name = "Data-Modeling"
+   Name = "DevOop_route"
  }
 }
 
