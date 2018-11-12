@@ -1,7 +1,7 @@
 # terraform-test-app
 
-## Clone the repo 
+Clone the repo 
 
-## Edit your USER_NAME in provider.tf file 
+Edit your USER_NAME in provider.tf file 
 
-## Efit yout ssh Key in instace.tf file 
+Efit yout ssh Key in instace.tf file 
