@@ -3,7 +3,7 @@ provider "aws" {
   region                  = "eu-central-1"
 #  access_key = "${AWS_ACCESS}"
 #  secret_key = "${AWS_SECRET}"
-  shared_credentials_file = "/Users/zein/.aws/credentials"
+  shared_credentials_file = "~/.aws/credentials"
   profile                 = "default"
 
 
