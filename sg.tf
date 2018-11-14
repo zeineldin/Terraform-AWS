@@ -30,6 +30,8 @@ resource "aws_security_group" "sg" {
     from_port   = 4789
     to_port     = 4789
     protocol    = "udp"
+    self = true
+
   }
 
   ingress {
