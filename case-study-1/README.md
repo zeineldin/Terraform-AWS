@@ -11,3 +11,6 @@
   ```terraform plan  -var 'AWS_KEY=******' -var 'AWS_SECRET=******'```
 
 3. use a file 
+
+
+Please note that the file terraform.tfvars has to be in the .gitignore file 
