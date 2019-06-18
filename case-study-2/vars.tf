@@ -13,10 +13,10 @@ variable "AMIS" {
 }
 
 variable "PATH_TO_PRIVATE_SSH_KEY" {
-  default = "mykey"
+  default = "devops_key"
 }
 variable "PATH_TO_PUBLIC_SSH_KEY" {
-  default = "mykey.pub"
+  default = "devops_key.pub"
 }
 variable "EC2_INSTANCE_USERNAME" {
   default = "ubuntu"
