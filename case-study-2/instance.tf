@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
 
   provisioner "file" {
     source = "script.sh"
-    destination = "/tmp/script.sh"
+    destination = "/tmp/scrpt.sh"
   }
   provisioner "remote-exec" {
     inline = [
