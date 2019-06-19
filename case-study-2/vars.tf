@@ -1,5 +1,5 @@
-variable "AWS_ACCESS_KEY" {}
-variable "AWS_SECRET_KEY" {}
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
 variable "AWS_REGION" {
   default = "eu-west-1"
 }
@@ -8,7 +8,7 @@ variable "AMIS" {
   default = {
     us-east-1 = "ami-13be557e"
     us-west-2 = "ami-06b94666"
-    eu-west-1 = "ami-844e0bf7"
+    eu-west-1 = "ami-08660f1c6fb6b01e7"
   }
 }
 
