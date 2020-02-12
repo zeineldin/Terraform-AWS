@@ -9,7 +9,7 @@ resource "aws_instance" "example" {
   key_name = "${aws_key_pair.devops_key.key_name}"
 
   provisioner "file" {
-    source = "script.sh"
+    source = "scrpt.sh"
     destination = "/tmp/scrpt.sh"
   }
   provisioner "remote-exec" {
