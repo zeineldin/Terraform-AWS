@@ -10,12 +10,12 @@ resource "aws_instance" "example" {
 
   provisioner "file" {
     source = "scrpt.sh"
-    destination = "/tmp/scrpt.sh"
+    destination = "/tmp/script.sh"
   }
   provisioner "remote-exec" {
     inline = [
-      "chmod +x /tmp/scrpt.sh",
-      "sudo /tmp/scrpt.sh"
+      "chmod +x /tmp/script.sh",
+      "sudo /tmp/script.sh"
     ]
   }
   connection {

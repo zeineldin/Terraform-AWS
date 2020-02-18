@@ -10,7 +10,8 @@
 
   ```terraform plan  -var 'AWS_KEY=******' -var 'AWS_SECRET=******'```
 
-3. use a file 
+OR - use the script "env-show.sh"  --> after adding the AWS_KEY and AWS_SECRET 
+ 
+  ```sh env-show.sh```
 
-
-Please note that the file terraform.tfvars has to be in the .gitignore file 
+Please note that the files terraform.tfvars and env-show.sh have to be in the .gitignore file 
