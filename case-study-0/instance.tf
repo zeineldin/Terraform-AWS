@@ -10,6 +10,6 @@ resource "aws_instance" "devopsarea" {
   instance_type = "t2.micro"
 
 tags = {
-    "Name" = "devopsarea-instance"
+    Name = "devopsarea-instance"
   }
 }
