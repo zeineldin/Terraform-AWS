@@ -1,0 +1,3 @@
+[submodule "1-Udemy-Terraform-Course"]
+	path = 1-Udemy-Terraform-Course
+	url = https://github.com/wardviaene/terraform-course.git
